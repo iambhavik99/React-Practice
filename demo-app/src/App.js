@@ -6,6 +6,7 @@ import { PortalComponent } from './components/PortalComponent';
 import { Welcome } from './components/Welcome';
 import ClickCounter from './components/ClickCounter';
 import HoverCounter from './components/HoverCounter';
+import { ComponentA } from './components/context/ComponentA';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
 
       <ClickCounter />
       <HoverCounter />
+
+      <hr/>
+      <ComponentA/>
     </div>
   );
 }
