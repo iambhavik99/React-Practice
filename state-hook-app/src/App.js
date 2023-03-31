@@ -1,21 +1,19 @@
+import { Component } from 'react';
 import './App.css';
 import { ClickEffect } from './Components/ClickEffect';
+import DataFetching from './Components/DataFetching';
 import { Forms } from './Components/Forms';
 import { HookCounter } from './Components/HookCounter';
 import { Lists } from './Components/Lists';
 
-function App() {
-  return (
-    <div className="App">
-      <HookCounter />
-      <hr/>
-      <Forms />
-      <hr/>
-      <Lists/>
-      <hr/>
-      <ClickEffect/>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <DataFetching />
+      </div>
+    )
+  }
 }
 
 export default App;
