@@ -1,10 +1,10 @@
 import './App.css';
-import { ParentComponent } from './Component/ParentChild/ParentComponent';
+import { GrandParentOne } from './Component/Optimization/GrandParentOne';
 
 function App() {
   return (
     <div className="App">
-      <ParentComponent />
+      <GrandParentOne />
     </div>
   );
 }
